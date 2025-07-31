@@ -3,10 +3,12 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
+import { DayForecast } from './day-forecast/day-forecast';
 
 @NgModule({
   declarations: [
-    App
+    App,
+    DayForecast
   ],
   imports: [
     BrowserModule,
